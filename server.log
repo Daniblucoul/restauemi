@@ -1,0 +1,2035 @@
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server/index.js`[39m
+✅ Database initialized
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Function.listen (C:\Restaurant Emi\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Restaurant Emi\server\index.js:59:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v22.17.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server/index.js`[39m
+✅ Database initialized
+🍽️  Restaurant Emi server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server/index.js`[39m
+✅ Database initialized
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Function.listen (C:\Restaurant Emi\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Restaurant Emi\server\index.js:59:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v22.17.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server/index.js`[39m
+✅ Database initialized
+🍽️  Restaurant Emi server running on port 5000
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `node server/index.js`[39m
+✅ Database initialized
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Function.listen (C:\Restaurant Emi\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Restaurant Emi\server\index.js:59:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v22.17.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^C
+[2025-10-06T00:06:28.828Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T00:06:29.147Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T00:11:23.919Z] ERROR
+Method: GET
+URL: /main.bf6dbc4d567026959ec2.hot-update.json
+Message: Cannot GET /main.bf6dbc4d567026959ec2.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.bf6dbc4d567026959ec2.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:35:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T00:20:58.602Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T00:20:58.864Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T00:21:27.117Z] ERROR
+Method: PATCH
+URL: /api/staff/1/status
+Message: Cannot PATCH /api/staff/1/status - Route not found
+Stack: Error: Cannot PATCH /api/staff/1/status - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {"status":"on_leave"}
+-------------------
+
+[2025-10-06T00:50:32.354Z] ERROR
+Method: GET
+URL: /main.127ce78e0efe0bb40818.hot-update.json
+Message: Cannot GET /main.127ce78e0efe0bb40818.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.127ce78e0efe0bb40818.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:35:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T00:56:01.967Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T00:56:02.298Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T01:29:44.812Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T01:29:45.077Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T01:47:49.095Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T01:47:49.413Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T02:21:56.840Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T02:21:57.150Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T02:32:03.982Z] ERROR
+Method: GET
+URL: /api/sales/stats?
+Message: Cannot GET /api/sales/stats? - Route not found
+Stack: Error: Cannot GET /api/sales/stats? - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:04.285Z] ERROR
+Method: GET
+URL: /api/sales/by-date?
+Message: Cannot GET /api/sales/by-date? - Route not found
+Stack: Error: Cannot GET /api/sales/by-date? - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:04.288Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:04.291Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:04.298Z] ERROR
+Method: GET
+URL: /api/sales/stats?
+Message: Cannot GET /api/sales/stats? - Route not found
+Stack: Error: Cannot GET /api/sales/stats? - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:04.597Z] ERROR
+Method: GET
+URL: /api/sales/by-date?
+Message: Cannot GET /api/sales/by-date? - Route not found
+Stack: Error: Cannot GET /api/sales/by-date? - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:04.599Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:04.603Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:17.390Z] ERROR
+Method: GET
+URL: /api/sales/stats?endDate=2025-10-06
+Message: Cannot GET /api/sales/stats?endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/stats?endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:17.392Z] ERROR
+Method: GET
+URL: /api/sales/by-date?endDate=2025-10-06
+Message: Cannot GET /api/sales/by-date?endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/by-date?endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:17.395Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:17.400Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:21.223Z] ERROR
+Method: GET
+URL: /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:21.534Z] ERROR
+Method: GET
+URL: /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:21.537Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:21.539Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:22.895Z] ERROR
+Method: GET
+URL: /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:22.897Z] ERROR
+Method: GET
+URL: /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:22.900Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:32:22.903Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:33:01.833Z] ERROR
+Method: GET
+URL: /api/sales/stats?
+Message: Cannot GET /api/sales/stats? - Route not found
+Stack: Error: Cannot GET /api/sales/stats? - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:33:02.150Z] ERROR
+Method: GET
+URL: /api/sales/by-date?
+Message: Cannot GET /api/sales/by-date? - Route not found
+Stack: Error: Cannot GET /api/sales/by-date? - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:33:02.152Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:33:02.154Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:33:02.157Z] ERROR
+Method: GET
+URL: /api/sales/stats?
+Message: Cannot GET /api/sales/stats? - Route not found
+Stack: Error: Cannot GET /api/sales/stats? - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:33:02.475Z] ERROR
+Method: GET
+URL: /api/sales/by-date?
+Message: Cannot GET /api/sales/by-date? - Route not found
+Stack: Error: Cannot GET /api/sales/by-date? - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:33:02.477Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:33:02.479Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:34:06.285Z] ERROR
+Method: GET
+URL: /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:34:06.287Z] ERROR
+Method: GET
+URL: /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:34:06.592Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:34:06.594Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:35:44.930Z] ERROR
+Method: GET
+URL: /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:35:45.262Z] ERROR
+Method: GET
+URL: /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:35:45.263Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:35:45.265Z] ERROR
+Method: GET
+URL: /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:35:45.269Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:35:45.570Z] ERROR
+Method: GET
+URL: /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:35:45.572Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:35:45.601Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:36:09.615Z] ERROR
+Method: GET
+URL: /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:36:09.622Z] ERROR
+Method: GET
+URL: /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:36:09.626Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:36:09.629Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:36:09.927Z] ERROR
+Method: GET
+URL: /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/stats?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:36:09.944Z] ERROR
+Method: GET
+URL: /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06
+Message: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+Stack: Error: Cannot GET /api/sales/by-date?startDate=2025-10-06&endDate=2025-10-06 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:36:09.948Z] ERROR
+Method: GET
+URL: /api/sales/top-items?limit=10
+Message: Cannot GET /api/sales/top-items?limit=10 - Route not found
+Stack: Error: Cannot GET /api/sales/top-items?limit=10 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:36:09.953Z] ERROR
+Method: GET
+URL: /api/sales/recent?limit=15
+Message: Cannot GET /api/sales/recent?limit=15 - Route not found
+Stack: Error: Cannot GET /api/sales/recent?limit=15 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:39:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:37:13.701Z] ERROR
+Method: GET
+URL: /main.ce847458ce9d45d11a10.hot-update.json
+Message: Cannot GET /main.ce847458ce9d45d11a10.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.ce847458ce9d45d11a10.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:43:38.453Z] ERROR
+Method: GET
+URL: /main.7f8a8328e4a6a7077bc5.hot-update.json
+Message: Cannot GET /main.7f8a8328e4a6a7077bc5.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.7f8a8328e4a6a7077bc5.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:47:20.285Z] ERROR
+Method: GET
+URL: /main.30c73306611833a172fe.hot-update.json
+Message: Cannot GET /main.30c73306611833a172fe.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.30c73306611833a172fe.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T02:47:26.898Z] ERROR
+Method: GET
+URL: /main.30c73306611833a172fe.hot-update.json
+Message: Cannot GET /main.30c73306611833a172fe.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.30c73306611833a172fe.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T03:03:21.926Z] ERROR
+Method: GET
+URL: /main.b45a715959d9e717ee7c.hot-update.json
+Message: Cannot GET /main.b45a715959d9e717ee7c.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.b45a715959d9e717ee7c.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T03:03:22.045Z] ERROR
+Method: GET
+URL: /main.b45a715959d9e717ee7c.hot-update.json
+Message: Cannot GET /main.b45a715959d9e717ee7c.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.b45a715959d9e717ee7c.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T03:03:22.274Z] ERROR
+Method: GET
+URL: /main.b45a715959d9e717ee7c.hot-update.json
+Message: Cannot GET /main.b45a715959d9e717ee7c.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.b45a715959d9e717ee7c.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T03:11:49.885Z] ERROR
+Method: GET
+URL: /main.6ae7aa4fd82518ad6f06.hot-update.json
+Message: Cannot GET /main.6ae7aa4fd82518ad6f06.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.6ae7aa4fd82518ad6f06.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T03:11:50.061Z] ERROR
+Method: GET
+URL: /main.6ae7aa4fd82518ad6f06.hot-update.json
+Message: Cannot GET /main.6ae7aa4fd82518ad6f06.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.6ae7aa4fd82518ad6f06.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T03:11:50.221Z] ERROR
+Method: GET
+URL: /main.6ae7aa4fd82518ad6f06.hot-update.json
+Message: Cannot GET /main.6ae7aa4fd82518ad6f06.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.6ae7aa4fd82518ad6f06.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T03:11:50.251Z] ERROR
+Method: GET
+URL: /main.6ae7aa4fd82518ad6f06.hot-update.json
+Message: Cannot GET /main.6ae7aa4fd82518ad6f06.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.6ae7aa4fd82518ad6f06.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:40:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T07:28:51.610Z] ERROR
+Method: GET
+URL: /main.793fdd737f1e1ccd9229.hot-update.json
+Message: Cannot GET /main.793fdd737f1e1ccd9229.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.793fdd737f1e1ccd9229.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T07:28:53.593Z] ERROR
+Method: GET
+URL: /main.793fdd737f1e1ccd9229.hot-update.json
+Message: Cannot GET /main.793fdd737f1e1ccd9229.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.793fdd737f1e1ccd9229.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T07:28:57.606Z] ERROR
+Method: GET
+URL: /main.793fdd737f1e1ccd9229.hot-update.json
+Message: Cannot GET /main.793fdd737f1e1ccd9229.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.793fdd737f1e1ccd9229.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T07:29:00.593Z] ERROR
+Method: GET
+URL: /main.793fdd737f1e1ccd9229.hot-update.json
+Message: Cannot GET /main.793fdd737f1e1ccd9229.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.793fdd737f1e1ccd9229.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T09:49:05.879Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T09:49:06.211Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T15:24:16.414Z] ERROR
+Method: GET
+URL: /main.3f8f39ec1422b5565f05.hot-update.json
+Message: Cannot GET /main.3f8f39ec1422b5565f05.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.3f8f39ec1422b5565f05.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T15:37:27.595Z] ERROR
+Method: GET
+URL: /main.b08f7ebea80ceecc3752.hot-update.json
+Message: Cannot GET /main.b08f7ebea80ceecc3752.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.b08f7ebea80ceecc3752.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T15:37:29.625Z] ERROR
+Method: GET
+URL: /main.b08f7ebea80ceecc3752.hot-update.json
+Message: Cannot GET /main.b08f7ebea80ceecc3752.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.b08f7ebea80ceecc3752.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T15:42:18.611Z] ERROR
+Method: POST
+URL: /api/orders
+Message: Insufficient stock for Basilic frais. Required: 1, Available: 0.2
+Stack: Error: Insufficient stock for Basilic frais. Required: 1, Available: 0.2
+    at C:\Restaurant Emi\server\routes\orders_v2.js:97:37
+    at Array.forEach (<anonymous>)
+    at Statement.<anonymous> (C:\Restaurant Emi\server\routes\orders_v2.js:94:27)
+Body: {"table_id":null,"customer_name":"Daniblue","items":[{"id":4,"name":"Poulet rôti","description":"Poulet rôti accompagné de frites et légumes","price":6000,"category":"Plats","available":1,"image_url":null,"created_at":"2025-10-06 15:36:11","updated_at":"2025-10-06 15:36:11","quantity":1},{"id":13,"name":"Coca-Cola","description":"Boisson gazeuse 33cl","price":1000,"category":"Boissons","available":1,"image_url":null,"created_at":"2025-10-06 15:36:12","updated_at":"2025-10-06 15:36:12","quantity":1}],"total_amount":7000,"status":"pending","order_type":"takeaway"}
+-------------------
+
+[2025-10-06T15:42:29.260Z] ERROR
+Method: POST
+URL: /api/orders
+Message: Insufficient stock for Basilic frais. Required: 1, Available: 0.2
+Stack: Error: Insufficient stock for Basilic frais. Required: 1, Available: 0.2
+    at C:\Restaurant Emi\server\routes\orders_v2.js:97:37
+    at Array.forEach (<anonymous>)
+    at Statement.<anonymous> (C:\Restaurant Emi\server\routes\orders_v2.js:94:27)
+Body: {"table_id":null,"customer_name":"Daniblue","items":[{"id":4,"name":"Poulet rôti","description":"Poulet rôti accompagné de frites et légumes","price":6000,"category":"Plats","available":1,"image_url":null,"created_at":"2025-10-06 15:36:11","updated_at":"2025-10-06 15:36:11","quantity":1},{"id":13,"name":"Coca-Cola","description":"Boisson gazeuse 33cl","price":1000,"category":"Boissons","available":1,"image_url":null,"created_at":"2025-10-06 15:36:12","updated_at":"2025-10-06 15:36:12","quantity":1}],"total_amount":7000,"status":"pending","order_type":"takeaway"}
+-------------------
+
+[2025-10-06T15:44:22.618Z] ERROR
+Method: POST
+URL: /api/orders
+Message: Insufficient stock for Poulet. Required: 1, Available: 0
+Stack: Error: Insufficient stock for Poulet. Required: 1, Available: 0
+    at C:\Restaurant Emi\server\routes\orders_v2.js:97:37
+    at Array.forEach (<anonymous>)
+    at Statement.<anonymous> (C:\Restaurant Emi\server\routes\orders_v2.js:94:27)
+Body: {"table_id":3,"customer_name":null,"items":[{"id":4,"name":"Poulet rôti","description":"Poulet rôti accompagné de frites et légumes","price":6000,"category":"Plats","available":1,"image_url":null,"created_at":"2025-10-06 15:36:11","updated_at":"2025-10-06 15:36:11","quantity":1}],"total_amount":6000,"status":"pending","order_type":"dine-in"}
+-------------------
+
+[2025-10-06T15:44:40.703Z] ERROR
+Method: POST
+URL: /api/orders
+Message: Insufficient stock for Poulet. Required: 1, Available: 0
+Stack: Error: Insufficient stock for Poulet. Required: 1, Available: 0
+    at C:\Restaurant Emi\server\routes\orders_v2.js:97:37
+    at Array.forEach (<anonymous>)
+    at Statement.<anonymous> (C:\Restaurant Emi\server\routes\orders_v2.js:94:27)
+Body: {"table_id":3,"customer_name":null,"items":[{"id":4,"name":"Poulet rôti","description":"Poulet rôti accompagné de frites et légumes","price":6000,"category":"Plats","available":1,"image_url":null,"created_at":"2025-10-06 15:36:11","updated_at":"2025-10-06 15:36:11","quantity":1}],"total_amount":6000,"status":"pending","order_type":"dine-in"}
+-------------------
+
+[2025-10-06T16:24:19.287Z] ERROR
+Method: GET
+URL: /main.efd717589fe0f559f60a.hot-update.json
+Message: Cannot GET /main.efd717589fe0f559f60a.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.efd717589fe0f559f60a.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:25:50.901Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T16:25:50.906Z] ERROR
+Method: GET
+URL: /api/haccp
+Message: Cannot GET /api/haccp - Route not found
+Stack: Error: Cannot GET /api/haccp - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Restaurant Emi\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Restaurant Emi\node_modules\express\lib\router\index.js:47:12)
+Body: {}
+-------------------
+
+[2025-10-06T16:27:31.801Z] ERROR
+Method: GET
+URL: /main.0ddff93e5c71580aaf53.hot-update.json
+Message: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:27:31.990Z] ERROR
+Method: GET
+URL: /main.0ddff93e5c71580aaf53.hot-update.json
+Message: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:27:32.152Z] ERROR
+Method: GET
+URL: /main.0ddff93e5c71580aaf53.hot-update.json
+Message: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:27:32.184Z] ERROR
+Method: GET
+URL: /main.0ddff93e5c71580aaf53.hot-update.json
+Message: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:27:36.701Z] ERROR
+Method: GET
+URL: /main.0ddff93e5c71580aaf53.hot-update.json
+Message: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.0ddff93e5c71580aaf53.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:46:10.667Z] ERROR
+Method: GET
+URL: /main.3096bc494bbd02ffdb24.hot-update.json
+Message: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:46:10.885Z] ERROR
+Method: GET
+URL: /main.3096bc494bbd02ffdb24.hot-update.json
+Message: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:46:11.017Z] ERROR
+Method: GET
+URL: /main.3096bc494bbd02ffdb24.hot-update.json
+Message: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:46:12.378Z] ERROR
+Method: GET
+URL: /main.3096bc494bbd02ffdb24.hot-update.json
+Message: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:46:12.783Z] ERROR
+Method: GET
+URL: /main.3096bc494bbd02ffdb24.hot-update.json
+Message: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T16:46:12.868Z] ERROR
+Method: GET
+URL: /main.3096bc494bbd02ffdb24.hot-update.json
+Message: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.3096bc494bbd02ffdb24.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T17:04:56.655Z] ERROR
+Method: POST
+URL: /api/auth/login
+Message: Cannot POST /api/auth/login - Route not found
+Stack: Error: Cannot POST /api/auth/login - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {"username":"Daniblucoul@gmail.com","password":"Sangoku24"}
+-------------------
+
+[2025-10-06T17:05:24.630Z] ERROR
+Method: POST
+URL: /api/auth/login
+Message: Cannot POST /api/auth/login - Route not found
+Stack: Error: Cannot POST /api/auth/login - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {"username":"Admin","password":"Admin123"}
+-------------------
+
+[2025-10-06T17:05:35.720Z] ERROR
+Method: POST
+URL: /api/auth/login
+Message: Cannot POST /api/auth/login - Route not found
+Stack: Error: Cannot POST /api/auth/login - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:41:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {"username":"admin","password":"admin123"}
+-------------------
+
+[2025-10-06T17:23:19.911Z] ERROR
+Method: GET
+URL: /main.58de060a8c3948771ecb.hot-update.json
+Message: Cannot GET /main.58de060a8c3948771ecb.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.58de060a8c3948771ecb.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:42:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T17:42:05.439Z] ERROR
+Method: GET
+URL: /main.e6a275c9095e933c016f.hot-update.json
+Message: Cannot GET /main.e6a275c9095e933c016f.hot-update.json - Route not found
+Stack: Error: Cannot GET /main.e6a275c9095e933c016f.hot-update.json - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:42:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T23:09:37.479Z] ERROR
+Method: GET
+URL: /api/placeholder/40/40
+Message: Cannot GET /api/placeholder/40/40 - Route not found
+Stack: Error: Cannot GET /api/placeholder/40/40 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:42:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T23:09:55.482Z] ERROR
+Method: GET
+URL: /api/placeholder/40/40
+Message: Cannot GET /api/placeholder/40/40 - Route not found
+Stack: Error: Cannot GET /api/placeholder/40/40 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:42:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------
+
+[2025-10-06T23:10:08.917Z] ERROR
+Method: GET
+URL: /api/placeholder/40/40
+Message: Cannot GET /api/placeholder/40/40 - Route not found
+Stack: Error: Cannot GET /api/placeholder/40/40 - Route not found
+    at notFoundHandler (C:\Restaurant Emi\server\middleware\errorHandler.js:117:17)
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Restaurant Emi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Restaurant Emi\node_modules\express\lib\router\index.js:280:10)
+    at C:\Restaurant Emi\server\index.js:42:5
+    at Layer.handle [as handle_request] (C:\Restaurant Emi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Restaurant Emi\node_modules\express\lib\router\index.js:328:13)
+    at C:\Restaurant Emi\node_modules\express\lib\router\index.js:286:9
+Body: {}
+-------------------

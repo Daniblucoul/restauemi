@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: restaurant-emi-server
+    env: node
+    plan: free
+    repo: https://github.com/Daniblucoul/restauemi.git
+    branch: main
+    buildFilter:
+      paths:
+      - server/**
+      - package.json
+      - package-lock.json
+    buildCommand: "npm install"
+    startCommand: "node server/index.js"
+    envVars:
+      - key: NODE_ENV
+        value: production
+    disks:
+      - name: sqlite-data
+        mountPath: /app/server/database
+        sizeGB: 1
