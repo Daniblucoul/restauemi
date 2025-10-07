@@ -2,7 +2,7 @@ services:
   - type: web
     name: restaurant-emi-server
     env: node
-    plan: free
+    plan: starter
     repo: https://github.com/Daniblucoul/restauemi.git
     branch: main
     buildFilter:
